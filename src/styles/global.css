@@ -2,7 +2,7 @@ body {
 	font-family: "IBM Plex Sans KR", sans-serif;
 	margin: auto;
 	padding: 20px;
-	max-width: 65ch;
+	max-width: 80ch;
 	text-align: left;
 	background-color: #fff;
 	color: #444;
@@ -51,7 +51,7 @@ code {
 }
 pre {
 	padding: 1rem;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 pre > code {
 	all: unset;
@@ -62,7 +62,7 @@ blockquote {
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
-	border-radius: 4px;
+	border-radius: 8px;
 }
 hr {
 	border: 1px solid #ddd;
@@ -88,7 +88,7 @@ hr {
 		background-color: #444;
 	}
 	blockquote {
-		background: #444;
+		background: #222;
 		color: #fff;
 	}
 }
