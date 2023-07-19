@@ -1,7 +1,8 @@
 ---
-title: "iOS and TestFlight CI/CD using GitHub Actions & Self-Hosted M1 Mac Mini Runner"
+title: "iOS and TestFlight CI/CD using GitHub Actions & Self-Hosted Mac Mini Runner"
 description: "Heck, I bought a Mac Mini just for this"
 pubDate: "Jul 19 2023"
+heroImage: "/assets/ios-ci-cd-selfhosted.png"
 ---
 
 Apple Silicon performs much better than Intel Macs when it comes to building iOS apps.
