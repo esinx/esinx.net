@@ -10,9 +10,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts"
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
-			div.double-col {
-				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			@media (min-width: 768px) {
+				div.double-col {
+					display: flex;
+					& > div {
+						flex: 1;
+					}
+				}
 			}
 		</style>
 	</head>
